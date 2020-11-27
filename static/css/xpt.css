@@ -14,11 +14,46 @@ body #nav{
 }
 
 body #nav #logo{
-
+    width: 13%;
 }
 
 body #nav #logo img{
     height: 240px;
     width: 240px;
     margin-top: 5px;
+    margin-left: 5px;
+}
+
+body #nav #nav-actual{ 
+    width: 60%; 
+    float: left;
+    margin-right: 0px;
+    margin-left: 40%;
+    margin-top: -170px;
+}
+
+body #nav #nav-actual ul{
+    list-style-type: none;
+}
+
+body #nav #nav-actual ul li{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+    font-size: 20pt;
+    float: left;
+    padding: 20px;
+}
+
+body #nav #nav-actual ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+body #nav #nav-actual ul li a:hover{
+    text-decoration: underline;
+}
+
+body #nav #nav-actual ul li a:visited{
+    color: #fff;
 }
