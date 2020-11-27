@@ -3,4 +3,22 @@
     XPT Group
     © 2020
 */
+body{ 
+    margin: 0;
+    padding: 0;
+}
+body #nav{
+    width: 100%; 
+    background: #000;
+    height: 250px;
+}
 
+body #nav #logo{
+
+}
+
+body #nav #logo img{
+    height: 240px;
+    width: 240px;
+    margin-top: 5px;
+}
